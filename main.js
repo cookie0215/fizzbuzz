@@ -14,5 +14,7 @@ forEach로 작성하기
 for(let i=1; i<=100; i++){
     if( i % 3 === 0 ) {
         console.log(`숫자${i}는 fizz`);
+    }else if( i % 5 === 0 ) {
+        console.log(`숫자${i}는 buzz`);
     }
 }
