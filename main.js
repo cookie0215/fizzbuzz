@@ -13,11 +13,13 @@ forEach로 작성하기
 
 for(let i=1; i<=100; i++){
     if( (i % 3 === 0) && (i % 5 === 0) ) {
-        console.log(`숫자${i}는 fizzbuzz`);
+        console.log(`숫자${i} fizzbuzz`);
     }else if( i % 3 === 0 ) {
-        console.log(`숫자${i}는 fizz`);
+        console.log(`숫자${i} fizz`);
     }else if( i % 5 === 0 ) {
-        console.log(`숫자${i}는 buzz`);
+        console.log(`숫자${i} buzz`);
+    }else {
+        console.log(`숫자 ${i}`);
     }
     
 }
